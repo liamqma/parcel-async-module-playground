@@ -1,0 +1,31 @@
+{
+  "name": "reproduce-bug-parcel-react-18",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build ./frontend/foo.html ./frontend/bar.html --no-optimize",
+    "start": "node backend/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liamqma/reproduce-bug-parcel-react-18.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liamqma/reproduce-bug-parcel-react-18/issues"
+  },
+  "homepage": "https://github.com/liamqma/reproduce-bug-parcel-react-18#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/preset-react": "^7.23.3",
+    "@babel/register": "^7.22.15",
+    "parcel": "^2.10.3"
+  }
+}
