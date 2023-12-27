@@ -9,3 +9,5 @@ storybook-static
 
 *.log
 *.tsbuildinfo
+
+dist
